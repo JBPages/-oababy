@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    padding-bottom: 20px;
+    height: 170px;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+header::after {
+    content: "";
+    background: url(../img/doodle.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 210px;
+    width: 100%;
+}
+
+.title {
+    height: 170px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.title img {
+    width: 130px;
+    position: absolute;
+    left: 220px;
+    top: 10px;
+
+}
+
+.title h1 {
+    position: absolute;
+    right: 210px;
+    top: 50px;
+    font-size: 55px;
+    
+}
+
+.title h2 {
+    position: absolute;
+    top: 120px;
+    right: 230px;
+    font-size: 20px;
+}
+
+.title p {
+    position: absolute;
+    top: 165px;
+    right: 2px;
+
+}
+
+.fundo {
+    width: 100%;
+    
+}
+
+.textos {
+    position: absolute;
+    top: 350px;
+    left: 130px;
+}
+
+.topo h1 {
+    font-size: 35px;
+}
+
+.textos h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    padding-bottom: 50px;
+    
+}
+
+.textos li {
+    font-family: 'Architects Daughter', cursive;
+    padding-bottom: 10px;
+    position: relative;
+    left: 250px;
+    font-size: 18px;
+}
+
+.doces a, .salgados a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.doces a:hover, 
+.salgados a:hover {
+    text-decoration: underline;
+}
+
+.doces img {
+    width: 90px;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.salgados h1 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+
+.salgados img {
+    width: 180px;
+    position: absolute;
+    left: 240px;
+    top: 440px;
+}
+
+.salgados li {
+    left: 10px;
+}
+

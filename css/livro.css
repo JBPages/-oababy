@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    padding-bottom: 20px;
+    height: 170px;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+header::after {
+    content: "";
+    background: url(../img/doodle.jpg);
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 210px;
+    width: 100%;
+}
+
+.title {
+    height: 170px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.title img {
+    width: 130px;
+    position: absolute;
+    left: 220px;
+    top: 10px;
+
+}
+
+.title h1 {
+    position: absolute;
+    right: 210px;
+    top: 50px;
+    font-size: 55px;
+    
+}
+
+.title h2 {
+    position: absolute;
+    top: 120px;
+    right: 230px;
+    font-size: 20px;
+}
+
+.title p {
+    position: absolute;
+    top: 165px;
+    right: 2px;
+
+}
+
+.fundo {
+    width: 100%;
+    
+}
+
+main {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.receita {
+    position: absolute;
+    top: 350px;
+    left: 130px;
+    width: 480px;
+}
+
+.receita h1 {
+    font-size: 35px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.receita img {
+    width: 550px;
+    position: absolute;
+    left: 570px;
+    top: -200px;
+
+}
+
+.bolo1:hover {
+    width: 580px;
+    transition: 0.2s;
+}
+
+.receita .bolo2 {
+    width: 450px;
+    position: absolute;
+    left: 620px;
+    top: 280px;
+}
+
+.receita .cookie {
+    width: 450px;
+    position: absolute;
+    left: 620px;
+    top: -150px;
+}
+
+.receita .gelatina {
+    width: 450px;
+    position: absolute;
+    left: 620px;
+    top: -100px;
+}
+
+.bolo2:hover,
+.cookie:hover,
+.gelatina:hover {
+    width: 480px;
+    transition: 0.2s;
+}
+
+.receita ul {
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.receita ul h2 {
+    padding-bottom: 20px;
+}
+
+.receita ul li {
+    font-size: 20px;
+}
+
+.receita ol h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.receita ol li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.receita .modoBolo {
+    font-size: 19px;
+}
+
+.receita .modoGelatina {
+    font-size: 18px;
+}
+
+.voltarBrownie, 
+.voltarBolo,
+.voltarCookie,
+.voltarGelatina {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    color: #000000;
+    position: absolute;
+    bottom: -85px;
+    left: -30px;
+    
+}
+
+.voltarBrownie:hover,
+.voltarBolo:hover,
+.voltarCookie:hover,
+.voltarGelatina:hover {
+    text-shadow: 0px 0px 7px #ffffff;
+}
+
+.voltarBolo {
+    bottom: -80px;
+}
+
+.voltarCookie {
+    bottom: -88px;
+}
+
+.voltarGelatina {
+    bottom: -90px;
+}

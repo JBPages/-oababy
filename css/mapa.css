@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #8B4513;
+    background-color: #FFFFE0	;
+}
+
+main {
+    background-color: #FFE4B5;
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.intro  {
+    max-width: 400px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.mochilinha {
+    position: absolute;
+    top: 140px;
+    right: 220px;
+    border-radius: 20px;
+
+}
+
+.textFotos {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 280px;
+}
+
+.fotos img {
+    width: 50%;
+    border-top: 2px solid #8B4513;
+}
+
+.foto1 {
+    padding-left: -75px;
+}
+
+.foto2 {
+    position: absolute;
+    right: 75px;
+    padding-right: -50px;
+}
+
+.lembrete {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    text-align: center;
+    margin-left: 650px;
+    
+}
+
+.montinho {
+    position: absolute;
+    width: 700px;
+    left: 70px;
+    top: 1200px;
+    border-radius: 20px;
+    
+
+}
+
+.universo {
+    margin-top: 150px;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 280px;
+    padding-bottom: 10px;
+}
+
+.mapa {
+    background-color: #FFE4B5;
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 20px;
+}
+
+.ceu {
+    width: 100%;
+}
+
+.thanks {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.leiahan {
+    background-color: #FFE4B5;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 500px;
+    padding-bottom: 40px;
+}
+
+
+.icones li {
+    list-style: none;
+    display: inline-block;
+    text-align: center; 
+}
+
+.leiahan h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+.leiahan a {
+    text-decoration: none;
+    color: #8B4513;
+}
+
+.leiahan a:hover {
+    text-shadow: 0px 0px 10px #000000;
+}

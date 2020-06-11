@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/fundo.jpg);
+    color: #ffe81f;
+    font-family: 'Bungee', cursive;
+    overflow: hidden;
+}
+
+.shadow {
+    height: 100px;
+    background-color: #000000;
+    box-shadow: 0px 10px 20px #000000;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    -webkit-transform: scale(0) translate(-50%, -50%);
+    -moz-transform: scale(0) translate(-50%, -50%);
+    transform: scale(0) translate(-50%, -50%);
+    -webkit-animation-name: logo;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: logo;
+    -moz-animation-duration: 15s;
+    -moz-animation-timing-function: linear;
+    animation-name: logo;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes logo {
+    from {
+      transform: translate(-50%, -50%) scale(2); 
+    }
+    to {
+      transform: translate(-50%, -50%) scale(0);
+    }
+}
+
+h1 {
+    color: #ffe81f;
+    position: absolute;
+    right: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 25px;
+    animation-name: menu;
+    animation-duration: 3s;
+    animation-delay: 40s;
+    animation-fill-mode: both;
+    
+}
+
+@keyframes menu {
+    from {
+      left: 0;
+      width: 700%;
+    }
+  
+    to {
+      left: 15px;
+      width: 180%;
+      
+    }
+}
+
+a:hover h1 {
+    text-shadow: 0px 0px 20px #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.texto {
+    text-align: center;
+    transform: perspective(800px) rotateX(25deg) translateY(40%);
+    animation-name: subir;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+}
+
+.texto p {
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #000;
+    margin-top: 70px;
+    line-height: 2.5;
+}
+
+@keyframes subir {
+    15% {
+      transform: perspective(800px) rotateX(25deg) translateY(40%);
+    }
+    100% {
+      transform: perspective(800px) rotateX(25deg) translateY(-220%); 
+    }
+}
+
