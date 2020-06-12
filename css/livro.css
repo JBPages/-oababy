@@ -83,7 +83,12 @@ main {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-.receita img {
+.receita .topoLasanha {
+    margin-top: -20px;
+}
+
+.receita .brownie, 
+.receita .bolo1 {
     width: 550px;
     position: absolute;
     left: 570px;
@@ -91,6 +96,7 @@ main {
 
 }
 
+.brownie:hover,
 .bolo1:hover {
     width: 580px;
     transition: 0.2s;
@@ -110,7 +116,10 @@ main {
     top: -150px;
 }
 
-.receita .gelatina {
+.receita .gelatina,
+.receita .arroz,
+.receita .lasanha,
+.receita .panqueca {
     width: 450px;
     position: absolute;
     left: 620px;
@@ -119,7 +128,15 @@ main {
 
 .bolo2:hover,
 .cookie:hover,
-.gelatina:hover {
+.gelatina:hover,
+.arroz:hover,
+.lasanha:hover,
+.panqueca:hover {
+    width: 480px;
+    transition: 0.2s;
+}
+
+.arroz:hover {
     width: 480px;
     transition: 0.2s;
 }
@@ -156,10 +173,22 @@ main {
     font-size: 18px;
 }
 
+.receita .modoLasanha {
+    font-size: 16px;
+}
+
+.receita .modoPao {
+    font-size: 16px;
+}
+
 .voltarBrownie, 
 .voltarBolo,
 .voltarCookie,
-.voltarGelatina {
+.voltarGelatina,
+.voltarArroz,
+.voltarLasanha,
+.voltarPanqueca, 
+.voltarPao {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 28px;
     text-decoration: none;
@@ -173,18 +202,33 @@ main {
 .voltarBrownie:hover,
 .voltarBolo:hover,
 .voltarCookie:hover,
-.voltarGelatina:hover {
+.voltarGelatina:hover,
+.voltarArroz:hover,
+.voltarLasanha:hover,
+.voltarPanqueca:hover,
+.voltarPao:hover {
     text-shadow: 0px 0px 7px #ffffff;
 }
 
-.voltarBolo {
+.voltarBolo,
+.voltarLasanha {
     bottom: -80px;
 }
 
-.voltarCookie {
+.voltarCookie,
+.voltarPanqueca {
     bottom: -88px;
 }
 
 .voltarGelatina {
     bottom: -90px;
+}
+
+.voltarArroz {
+    bottom: -143px;
+}
+
+
+.voltarPao {
+    bottom: -65px;
 }
